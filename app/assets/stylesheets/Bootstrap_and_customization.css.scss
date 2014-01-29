@@ -1,4 +1,20 @@
-$body-bg:   #34495e;
-$navbar-default-bg:    #f39c12;
+@import url(http://fonts.googleapis.com/css?family=Antic+Didone);
+
+$body-bg:   								#34495e;
+$font-family-sans-serif:		'Antic+Didone', 'Helvetica Neve', Helvetica, Arial, sans-serif;
+$navbar-height:							45px;
+$navbar-default-bg:    			white;
+$navbar-default-brand-color: #c0392b;
+$brand-primary:								#c0392b;
 $navbar-default-link-color: black;
+$jumbotron-bg:							#bdc3c7;
+
 @import 'bootstrap';
+
+.center {
+		text-align: center;
+}
+
+.navbar-brand {	
+	font-weight: bold;
+	}
